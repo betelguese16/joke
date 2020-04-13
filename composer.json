@@ -1,0 +1,24 @@
+{
+    "name": "betelguese16/joke",
+    "description": "Just joke",
+    "authors": [
+        {
+            "name": "Betelguese16",
+            "email": "harishariyanto285@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra" : {
+    	"laravel" : {
+    		"providers" : [
+    			"Betelguese16\\Joke\\Providers\\JokeServiceProvider"
+    		]
+    	}
+    },
+    "autoload" : {
+    	"psr-4" : {
+    		"Betelguese16\\Joke\\" : "src"
+    	}
+    }
+}
