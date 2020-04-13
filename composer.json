@@ -12,7 +12,7 @@
     "extra" : {
     	"laravel" : {
     		"providers" : [
-    			"Betelguese16\\Joke\\Providers\\JokeServiceProvider"
+    			"Betelguese16\\Joke\\JokeServiceProvider"
     		]
     	}
     },
