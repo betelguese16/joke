@@ -7,3 +7,7 @@ Route::get('joke', function () {
 Route::get('another-joke', function () {
 	return 'Another Jokessss';
 });
+
+Route::get('new', function () {
+	return 'New jokes';
+})
